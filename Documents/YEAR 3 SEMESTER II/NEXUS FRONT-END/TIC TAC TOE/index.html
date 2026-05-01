@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  
+
+  <main class="app">
+
+    <!-- Header -->
+    <section class="header">
+      <h1>Tic Tac Toe</h1>
+      <p class="subtitle">X vs O — simple, fast, fun</p>
+    </section>
+    <div class="mode">
+  <button id="pvp">2 Players</button>
+  <button id="ai">Single Player</button>
+</div>
+    <div>
+      <p id="turnbox"> Turn: X</p>
+      <p id="scoreBox">X: 0 | O: 0</p>
+    </div>
+
+    <!-- Game board -->
+    <section class="board-container">
+      <div class="board" id="board">
+
+        <button class="cell"></button>
+        <button class="cell"></button>
+        <button class="cell"></button>
+
+        <button class="cell"></button>
+        <button class="cell"></button>
+        <button class="cell"></button>
+
+        <button class="cell"></button>
+        <button class="cell"></button>
+        <button class="cell"></button>
+
+      </div>
+    </section>
+    <div id="popup" class="popup hidden">
+    <h1 id="popupText"></h1>
+    <button id="playAgain">Play Again</button>
+</div>
+<p id="messagebox"></p>
+    <!-- Controls -->
+    <section class="controls">
+      <button id="reset-btn">Restart Game</button>
+    </section>
+    <script src="script.js"></script>
+
+  </main>
+  
+
+</body>
+</html>
